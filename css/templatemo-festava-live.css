@@ -939,6 +939,7 @@ strong {
   
   .navbar {
     background-color: #000000;
+    border-bottom: 1px #161616 solid ;
   }
 
   .navbar-expand-lg .navbar-nav {
