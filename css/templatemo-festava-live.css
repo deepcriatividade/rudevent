@@ -358,15 +358,16 @@ strong {
   background-color: var(--dark-color);
 }
 
+.logo-img {
+  height: 1rem;
+  transition: height 0.3s ease-in-out;
+}
+
+
 .navbar {
   background-color: #000000;
   border-bottom: 1px #161616 solid;
   z-index: 9;
-}
-
-.navbar-brand img {
-  height: 1rem;
-  transition: height 0.3s ease-in-out;
 }
 
 .navbar-brand,
