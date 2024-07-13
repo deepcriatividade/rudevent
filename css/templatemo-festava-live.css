@@ -375,8 +375,6 @@ strong {
   color: var(--white-color);
   font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
-  height: 1rem;
-  
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
