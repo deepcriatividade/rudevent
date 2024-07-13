@@ -364,6 +364,11 @@ strong {
   z-index: 9;
 }
 
+.navbar-brand img {
+  height: 1rem;
+  transition: height 0.3s ease-in-out;
+}
+
 .navbar-brand,
 .navbar-brand:hover {
   color: var(--white-color);
