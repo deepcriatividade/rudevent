@@ -502,8 +502,8 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
-  background-color: #704010;
+  background-image: url('');
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
