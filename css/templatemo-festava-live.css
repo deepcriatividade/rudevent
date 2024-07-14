@@ -299,7 +299,7 @@ strong {
 }
 
 .custom-border-btn {
-  background: transparent;
+  background: #F8CB2E;
   border: 2px solid var(--custom-btn-bg-color);
   color: var(--custom-btn-bg-color);
 }
