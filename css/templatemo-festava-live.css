@@ -510,7 +510,7 @@ strong {
 }
 
 .about-image {
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-small);
   display: block;
 }
 
@@ -532,7 +532,7 @@ strong {
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-small);
   border: 1px solid rgba(209, 213, 219, 0.3);
   position: absolute;
   bottom: 0;
@@ -589,7 +589,7 @@ strong {
 }
 
 .artists-image {
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-small);
   display: block;
   width: 100%;
 }
