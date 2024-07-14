@@ -7,7 +7,7 @@
   --custom-btn-bg-color:          #EE5007;
   --custom-btn-bg-hover-color:    #c01f27;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #ff00dd;
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
@@ -299,7 +299,7 @@ strong {
 }
 
 .custom-border-btn {
-  background: #F8CB2E;
+  background: transparent;
   border: 2px solid var(--custom-btn-bg-color);
   color: var(--custom-btn-bg-color);
 }
