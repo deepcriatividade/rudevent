@@ -309,8 +309,6 @@ strong {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
   color: var(--white-color);
-  display: flex;
-  align-items: center;
 }
 
 .custom-btn-bg-white {
@@ -383,6 +381,8 @@ strong {
   border-radius: var(--border-radius-large);
   margin: 10px;
   padding: 10px 20px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav .nav-link {
@@ -408,7 +408,7 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
-
+  
 }
 
 .navbar-toggler:focus {
