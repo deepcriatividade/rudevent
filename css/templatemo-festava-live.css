@@ -309,6 +309,8 @@ strong {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
   color: var(--white-color);
+  display: flex;
+  align-items: center;
 }
 
 .custom-btn-bg-white {
@@ -406,6 +408,7 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
+
 }
 
 .navbar-toggler:focus {
