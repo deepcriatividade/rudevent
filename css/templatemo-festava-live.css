@@ -406,8 +406,7 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
-  display: flex;
-  
+
 }
 
 .navbar-toggler:focus {
