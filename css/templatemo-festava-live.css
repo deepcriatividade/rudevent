@@ -367,7 +367,7 @@ strong {
 .navbar {
   background-color: #000000;
   border-bottom: 1px #161616 solid;
-  z-index: 9;
+  z-index: 1030;
 }
 
 .navbar-brand,
@@ -948,6 +948,7 @@ strong {
   .navbar {
     background-color: #000000;
     border-bottom: 1px #161616 solid;
+
   }
 
   .navbar-expand-lg .navbar-nav {
