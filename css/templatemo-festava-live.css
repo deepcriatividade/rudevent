@@ -952,8 +952,6 @@ strong {
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
