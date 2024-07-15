@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: #fff;
 }
 
 h1,
@@ -207,7 +207,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: #ooo;
 }
 
 .section-overlay {
