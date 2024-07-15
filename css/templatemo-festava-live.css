@@ -285,7 +285,7 @@ strong {
   background: #00000000;
   border: 2px solid #ffffff;
   border-radius: var(--border-radius-large);
-  color: #ffffff;
+  color: #fff;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -300,13 +300,13 @@ strong {
 
 .custom-border-btn {
   background: transparent;
-  border: 2px solid #00ff88;
-  color: #ff0095;
+  border: 2px solid #00000000;
+  color: #00000000;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
-  background: #09ff00;
+  background: #ffffff;
   border-color: transparent;
   color: #fbff00;
 }
