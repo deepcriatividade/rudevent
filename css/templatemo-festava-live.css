@@ -620,9 +620,13 @@ strong {
 }
 
 .artists-year {
+  border: 2px solid #1f1f1f;
+  border-radius: var(--border-radius-large);
+  padding: 10px 20px;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 0px;
   text-align: right;
+  color: #949494;
 }
 
 .artists-thumb {
