@@ -652,12 +652,10 @@ strong {
   transition: transform 0.5s ease, filter 0.5s ease;
   width: 100%;
   display: block;
-  transform: scale(1.1);
   filter: grayscale(100%);
 }
 
 .artists-image-wrap:hover .artists-image {
-  transform: scale(1.2);
   filter: grayscale(0%);
 }
 
