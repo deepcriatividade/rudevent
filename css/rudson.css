@@ -645,14 +645,21 @@ strong {
   display: block;
   width: 100%;
   margin-bottom: -5px;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  transform: scale(1);
+  filter: grayscale(100%);
 }
 
 .artists-image-wrap {
   margin-bottom: 0;
   border: none;
+  overflow: hidden;
 }
 
-
+.artists-image:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
 
 .artists-thumb:hover .artists-hover {
   transform: translateY(0);
