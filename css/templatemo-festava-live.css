@@ -603,6 +603,8 @@ strong {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  border: 1px #161616 solid;
+  border-radius: 10px;
 }
 
 .artists-image {
