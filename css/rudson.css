@@ -591,6 +591,8 @@ strong {
 }
 
 .artists-caption {
+  margin-top: 0;
+  padding-top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -642,7 +644,15 @@ strong {
   border-top-right-radius: var(--border-radius-small);
   display: block;
   width: 100%;
+  margin-bottom: 0;
 }
+
+.artists-image-wrap {
+  margin-bottom: 0;
+  border: none;
+}
+
+
 
 .artists-thumb:hover .artists-hover {
   transform: translateY(0);
