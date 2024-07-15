@@ -497,6 +497,34 @@ strong {
   height: 100%;
 }
 
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status .dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
 
 /*---------------------------------------
   ABOUT              
