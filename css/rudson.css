@@ -644,21 +644,6 @@ strong {
   width: 100%;
 }
 
-.artists-image-wrap {
-  overflow: hidden;
-}
-
-.artists-image {
-  transition: transform 0.5s ease, filter 0.5s ease;
-  width: 100%;
-  display: block;
-  filter: grayscale(100%);
-}
-
-.artists-image-wrap:hover .artists-image {
-  filter: grayscale(0%);
-}
-
 .artists-thumb:hover .artists-hover {
   transform: translateY(0);
   opacity: 1;
