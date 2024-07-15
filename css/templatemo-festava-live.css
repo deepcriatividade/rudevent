@@ -308,12 +308,12 @@ strong {
 .custom-border-btn:hover {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
-  color: var(--white-color);
+  color: #fbff00;
 }
 
 .custom-btn-bg-white {
-  border-color: var(--white-color);
-  color: var(--white-color);
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 
