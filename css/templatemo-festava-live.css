@@ -211,7 +211,7 @@ strong {
 }
 
 .section-overlay {
-  background-color: var(--dark-color);
+  background-color: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -582,6 +582,14 @@ strong {
 /*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
+.artists-section {
+  background-image: url('');
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .artists-thumb {
   position: relative;
   overflow: hidden;
