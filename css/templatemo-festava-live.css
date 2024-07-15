@@ -591,6 +591,9 @@ strong {
 }
 
 .artists-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
   padding: 1.5rem;
   text-align: center;
@@ -601,6 +604,25 @@ strong {
 
 .artists-subheading {
   color: #949494;
+}
+
+.artists-column {
+  flex: 1;
+}
+
+.artists-column.left {
+  text-align: left;
+}
+
+.artists-column.right {
+  display: flex;
+  justify-content: center;
+}
+
+.artists-year {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
 }
 
 .artists-thumb {
