@@ -637,11 +637,22 @@ strong {
   border-radius: 10px;
 }
 
+.artists-image-wrap {
+  overflow: hidden;
+}
+
 .artists-image {
   border-top-left-radius: var(--border-radius-small);
   border-top-right-radius: var(--border-radius-small);
+  transition: transform 0.5s ease, filter 0.5s ease;
   display: block;
   width: 100%;
+  filter: grayscale(100%);
+}
+
+.artists-image-wrap:hover .artists-image {
+  transform: scale(1.1);
+  filter: grayscale(0%);
 }
 
 .artists-thumb:hover .artists-hover {
