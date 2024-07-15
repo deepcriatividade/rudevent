@@ -608,7 +608,8 @@ strong {
 }
 
 .artists-image {
-  border-radius: var(--border-radius-small);
+  border-top-left-radius: var(--border-radius-small);
+  border-top-right-radius: var(--border-radius-small);
   display: block;
   width: 100%;
 }
