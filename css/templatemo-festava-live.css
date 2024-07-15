@@ -207,7 +207,7 @@ strong {
 }
 
 .section-bg {
-  background-color: #ooo;
+  background-color: #000000;
 }
 
 .section-overlay {
@@ -503,7 +503,7 @@ strong {
 -----------------------------------------*/
 .about-section {
   background-image: url('');
-  background-color: #000;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
