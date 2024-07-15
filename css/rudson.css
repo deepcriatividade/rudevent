@@ -637,16 +637,21 @@ strong {
   border-radius: 10px;
 }
 
+.artists-image {
+  border-top-left-radius: var(--border-radius-small);
+  border-top-right-radius: var(--border-radius-small);
+  display: block;
+  width: 100%;
+}
+
 .artists-image-wrap {
   overflow: hidden;
 }
 
 .artists-image {
-  border-top-left-radius: var(--border-radius-small);
-  border-top-right-radius: var(--border-radius-small);
   transition: transform 0.5s ease, filter 0.5s ease;
-  display: block;
   width: 100%;
+  display: block;
   filter: grayscale(100%);
 }
 
