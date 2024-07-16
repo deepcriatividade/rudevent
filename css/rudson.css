@@ -479,6 +479,7 @@ strong {
 .hero-section small {
   color: var(--white-color);
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .hero-section .section-overlay {
