@@ -593,9 +593,9 @@ strong {
 }
 
 .icon-svg {
-  width: 24px;
-  height: 24px;
-  margin: 10x;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
 }
 
 .text-section {
