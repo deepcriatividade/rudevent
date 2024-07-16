@@ -850,7 +850,7 @@ strong {
   PRICING              
 -----------------------------------------*/
 .pricing-thumb {
-  border: 5px dotted var(--dark-color);
+  border: 5px dotted #ffffff;
   border-radius: var(--border-radius-medium);
   position: relative;
   padding: 50px;
