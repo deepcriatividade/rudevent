@@ -599,7 +599,7 @@ strong {
 
 .text-section {
   padding: 0 10px;
-  text-align: center;
+  text-align: initial;
 }
 
 
