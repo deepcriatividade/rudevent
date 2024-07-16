@@ -575,6 +575,7 @@ strong {
   background-color: #111111;
   color: white;
   border-radius: 5px;
+  border: 1px #161616 solid;
   display: inline-flex;
   align-items: center;
   font-family: "Instrument Sans", sans-serif;
@@ -582,7 +583,7 @@ strong {
 }
 
 .icon-section {
-  background-color: #0056b3;
+  background-color: #000000;
   width: 60px;
   height: 100%;
   display: flex;
@@ -592,8 +593,8 @@ strong {
 }
 
 .icon-svg {
-  width: 24px;
-  height: 24px;
+  width: auto;
+  height: auto;
   margin: 5px;
 }
 
