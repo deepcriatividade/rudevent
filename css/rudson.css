@@ -572,7 +572,7 @@ strong {
 
 /* SELO */
 .selo {
-  background-color: #3a3a3a;
+  background-color: #111111;
   color: white;
   border-radius: 5px;
   display: inline-flex;
@@ -581,8 +581,8 @@ strong {
   height: 60px;
 }
 
-.icon-section {
-  background-color: #0056b3;
+.icon-section-ifce {
+  background-color: #fff;
   width: 60px;
   height: 100%;
   display: flex;
