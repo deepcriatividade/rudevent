@@ -572,7 +572,7 @@ strong {
 
 /* SELO */
 .selo {
-  background-color: #ff0000;
+  background-color: #3a3a3a;
   color: white;
   border-radius: 5px;
   display: inline-flex;
@@ -583,17 +583,18 @@ strong {
 
 .icon-section {
   background-color: #0056b3;
-  padding: 0 10px;
-  border-radius: 5px 0 0 5px;
+  width: 60px; /* Mesma altura do selo para torná-lo quadrado */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px 0 0 5px;
 }
 
 .icon-svg {
   width: 24px;
   height: 24px;
+  margin: 5px; /* Margem ao redor da imagem */
 }
 
 .text-section {
