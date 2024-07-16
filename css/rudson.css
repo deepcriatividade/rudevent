@@ -570,6 +570,36 @@ strong {
   padding: 35px;
 }
 
+/* SELO */
+.selo {
+  background-color: #333; /* Cor de fundo do selo */
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 16px; /* Espaçamento interno */
+  display: flex; /* Display flex para alinhamento */
+  align-items: center; /* Alinha itens verticalmente ao centro */
+}
+
+.logo-col {
+  flex: 1; /* Ocupa 1 unidade de espaço */
+  display: flex; /* Display flex para alinhamento */
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.text-col {
+  flex: 2; /* Ocupa 2 unidades de espaço */
+  margin-left: 16px; /* Espaçamento entre a logo e o texto */
+}
+
+.logo {
+  max-width: 100%; /* Garante que a logo não ultrapasse o tamanho da coluna */
+  max-height: 60px; /* Ajusta a altura máxima da logo */
+}
+
+.text-white {
+  color: #fff; /* Cor do texto branca */
+}
+
 
 /*---------------------------------------
   TICKET               
