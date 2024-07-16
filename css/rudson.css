@@ -577,13 +577,13 @@ strong {
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
-  font-family: Arial, sans-serif;
-  height: 60px; /* Ajuste a altura conforme necessário */
+  font-family: "Instrument Sans", sans-serif;
+  height: 60px;
 }
 
 .icon-section {
   background-color: #0056b3;
-  width: 60px; /* Mesma altura do selo para torná-lo quadrado */
+  width: 60px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -594,7 +594,7 @@ strong {
 .icon-svg {
   width: 24px;
   height: 24px;
-  margin: 5px; /* Margem ao redor da imagem */
+  margin: 5px;
 }
 
 .text-section {
