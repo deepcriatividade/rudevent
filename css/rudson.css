@@ -570,6 +570,37 @@ strong {
   padding: 35px;
 }
 
+/* SELO */
+.selo {
+  background-color: #3a3a3a;
+  color: white;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.icon-section {
+  background-color: #0056b3;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.icon-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.text-section {
+  padding: 10px;
+  text-align: center;
+}
+
+.selo .text-section {
+  padding: 10px;
+}
+
+
 
 /*---------------------------------------
   TICKET               
