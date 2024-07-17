@@ -29,32 +29,9 @@
     });
 
     // LOGO SLIDE
-    document.addEventListener("DOMContentLoaded", function() {
-      const track = document.querySelector(".logo-carousel-track");
-      const slides = Array.from(track.children);
-      
-      // Cloning slides to make the animation seamless
-      slides.forEach(slide => {
-        const clone = slide.cloneNode(true);
-        track.appendChild(clone);
-      });
-    
-      let currentPosition = 0;
-      
-      function moveSlides() {
-        currentPosition -= 1; // Adjust the value to control the speed
-        if (currentPosition <= -track.scrollWidth / 2) {
-          currentPosition = 0;
-        }
-        track.style.transform = `translateX(${currentPosition}px)`;
-        requestAnimationFrame(moveSlides);
-      }
-      
-      moveSlides();
-    });
-    
-  
-       
+    const control = document.getElementById("direction-toggle");
+    const marquees = document.querySelectorAll(".marquee");
+    const wrapper = document.querySelector(".wrapper");
   
   })(window.jQuery);
 
