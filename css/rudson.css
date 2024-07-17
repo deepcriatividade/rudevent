@@ -847,8 +847,8 @@ strong {
 
 /* LOGOS */
 :root {
-  --color-text: navy;
-  --color-bg: papayawhip;
+  --color-text: #fff;
+  --color-bg: #0a0a0a;
   --color-bg-accent: #88ff00;
   --size: clamp(10rem, 1rem + 40vmin, 30rem);
   --gap: calc(var(--size) / 14);
@@ -857,13 +857,6 @@ strong {
   --scroll-end: calc(-100% - var(--gap));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: papayawhip;
-    --color-bg: navy;
-    --color-bg-accent: #2626a0;
-  }
-}
 
 * {
   box-sizing: border-box;
