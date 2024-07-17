@@ -226,8 +226,9 @@ strong {
 }
 
 .tab-content {
-  background-color: var(--white-color);
-  border-radius: var(--border-radius-medium);
+  background-color: #0a0a0a;
+  border-radius: var(--border-radius-small);
+  border: 1px solid rgb(22, 22, 22);
   padding: 45px;
 }
 
