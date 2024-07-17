@@ -32,14 +32,13 @@
     document.addEventListener("DOMContentLoaded", function() {
       const track = document.querySelector(".logo-carousel-track");
       const slides = Array.from(track.children);
-    
+      
       // Cloning slides to make the animation seamless
       slides.forEach(slide => {
         const clone = slide.cloneNode(true);
         track.appendChild(clone);
       });
     
-      const slideWidth = slides[0].getBoundingClientRect().width;
       let currentPosition = 0;
       
       function moveSlides() {
@@ -53,6 +52,7 @@
       
       moveSlides();
     });
+    
   
        
   
