@@ -849,7 +849,7 @@ strong {
 :root {
   --color-text: navy;
   --color-bg: papayawhip;
-  --color-bg-accent: #ecdcc0;
+  --color-bg-accent: #88ff00;
   --size: clamp(10rem, 1rem + 40vmin, 30rem);
   --gap: calc(var(--size) / 14);
   --duration: 60s;
