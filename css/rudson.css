@@ -845,6 +845,41 @@ strong {
   z-index: 2;
 }
 
+/* LOGOS */
+.logo-carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-carousel-track {
+  display: flex;
+  width: calc(200%); /* Adjusting to fit both sets of logos */
+  animation: scroll 30s linear infinite;
+}
+
+.logo-carousel-slide {
+  flex: 0 0 auto;
+  margin: 0 10px;
+  padding: 10px;
+  background: #1c1c1c;
+  border-radius: 10px;
+}
+
+.logo-carousel-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 /*---------------------------------------
   PRICING              

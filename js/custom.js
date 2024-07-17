@@ -27,6 +27,32 @@
         }, 300);
       }
     });
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const track = document.querySelector(".logo-carousel-track");
+      const slides = Array.from(track.children);
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      
+      function setSlidePosition(slide, index) {
+        slide.style.left = slideWidth * index + "px";
+      }
+    
+      slides.forEach(setSlidePosition);
+    
+      function moveToSlide(track, currentSlide, targetSlide) {
+        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+      }
+    
+      function moveSlide() {
+        const currentSlide = track.querySelector(".logo-carousel-slide");
+        const nextSlide = currentSlide.nextElementSibling;
+        moveToSlide(track, currentSlide, nextSlide);
+        track.append(currentSlide);
+      }
+    
+      setInterval(moveSlide, 3000);
+    });
+    
   
   })(window.jQuery);
 
