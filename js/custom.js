@@ -28,31 +28,33 @@
       }
     });
 
+    // LOGO SLIDE
     document.addEventListener("DOMContentLoaded", function() {
       const track = document.querySelector(".logo-carousel-track");
       const slides = Array.from(track.children);
+    
+      // Cloning slides to make the animation seamless
+      slides.forEach(slide => {
+        const clone = slide.cloneNode(true);
+        track.appendChild(clone);
+      });
+    
       const slideWidth = slides[0].getBoundingClientRect().width;
+      let currentPosition = 0;
       
-      function setSlidePosition(slide, index) {
-        slide.style.left = slideWidth * index + "px";
+      function moveSlides() {
+        currentPosition -= 1; // Adjust the value to control the speed
+        if (currentPosition <= -track.scrollWidth / 2) {
+          currentPosition = 0;
+        }
+        track.style.transform = `translateX(${currentPosition}px)`;
+        requestAnimationFrame(moveSlides);
       }
-    
-      slides.forEach(setSlidePosition);
-    
-      function moveToSlide(track, currentSlide, targetSlide) {
-        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
-      }
-    
-      function moveSlide() {
-        const currentSlide = track.querySelector(".logo-carousel-slide");
-        const nextSlide = currentSlide.nextElementSibling;
-        moveToSlide(track, currentSlide, nextSlide);
-        track.append(currentSlide);
-      }
-    
-      setInterval(moveSlide, 3000);
+      
+      moveSlides();
     });
-    
+  
+       
   
   })(window.jQuery);
 

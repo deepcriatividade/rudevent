@@ -849,11 +849,12 @@ strong {
 .logo-carousel {
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .logo-carousel-track {
   display: flex;
-  width: calc(200%); /* Adjusting to fit both sets of logos */
+  width: max-content;
   animation: scroll 30s linear infinite;
 }
 
