@@ -232,8 +232,9 @@ strong {
 }
 
 .nav-tabs {
-  background-color: var(--section-bg-color);
+  background-color: #0a0a0a;
   border-radius: var(--border-radius-large);
+  border: 1px solid rgb(22, 22, 22);
   border-bottom: 0;
   padding: 15px;
 }
