@@ -865,6 +865,7 @@ strong {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 700;
 }
 
 .accordion-item-header.active::after {
