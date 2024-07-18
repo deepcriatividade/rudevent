@@ -849,15 +849,13 @@ strong {
 /* FAQ */
 .accordion {
   width: 100vw;
-  color: #ffffff;
-
 }
 
 .accordion-item {
   background-color: #0a0a00;
   border: 1px solid #161616;
   margin: 5px 0;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .accordion-item-header {
