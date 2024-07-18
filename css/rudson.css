@@ -1169,7 +1169,6 @@ strong {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-family: 'Rudin';
     font-size: 52px;
   }
 
@@ -1186,7 +1185,6 @@ strong {
   }
 
   h5 {
-    font-family: 'Rudin';
     font-size: 20px;
   }
 }
