@@ -984,6 +984,53 @@ strong {
   border-color: transparent;
 }
 
+/* ABAS */
+.custom-tabs {
+  position: relative;
+  display: inline-flex;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-tabs .nav-link {
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-tabs .nav-link.active h5 {
+  color: #000;
+}
+
+.custom-tabs .nav-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 25px;
+  transition: left 0.3s ease;
+}
+
+.custom-tabs .nav-link:nth-child(1).active ~ .nav-underline {
+  left: 0;
+}
+
+.custom-tabs .nav-link:nth-child(2).active ~ .nav-underline {
+  left: 50%;
+}
+
+h5 {
+  margin: 0;
+}
+
 
 /*---------------------------------------
   SITE FOOTER              
