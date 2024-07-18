@@ -1013,20 +1013,11 @@ strong {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
   height: 100%;
   background-color: #fff;
   border-radius: 25px;
-  transition: left 0.3s ease;
+  transition: left 0.3s ease, width 0.3s ease;
   z-index: 0;
-}
-
-.custom-tabs .nav-link:nth-child(1).active ~ .nav-underline {
-  left: 0;
-}
-
-.custom-tabs .nav-link:nth-child(2).active ~ .nav-underline {
-  left: 50%;
 }
 
 h5 {
@@ -1038,7 +1029,7 @@ h5 {
 }
 
 #nav-ContactMap-tab.active h5 {
-  color: #FFC107; /* Cor amarela */
+  color: #FFC107;
 }
 
 

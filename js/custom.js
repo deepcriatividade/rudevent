@@ -49,6 +49,31 @@ accordionHeaders.forEach(header => {
     });
 });
 
+  // ABAS
+  document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navUnderline = document.querySelector(".nav-underline");
+
+    function updateUnderline() {
+        const activeLink = document.querySelector(".nav-link.active");
+        const activeLinkRect = activeLink.getBoundingClientRect();
+        const parentRect = activeLink.parentElement.getBoundingClientRect();
+
+        navUnderline.style.width = `${activeLinkRect.width}px`;
+        navUnderline.style.left = `${activeLinkRect.left - parentRect.left}px`;
+    }
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function() {
+            navLinks.forEach(link => link.classList.remove("active"));
+            this.classList.add("active");
+            updateUnderline();
+        });
+    });
+
+    updateUnderline();
+});
+
   
   })(window.jQuery);
 
