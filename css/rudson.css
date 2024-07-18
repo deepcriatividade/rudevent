@@ -852,6 +852,7 @@ strong {
 }
 
 .accordion-item {
+  color: #ffffff;
   background-color: #0a0a00;
   border: 1px solid #161616;
   margin: 5px 0;
