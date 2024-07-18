@@ -255,7 +255,7 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  background: ;
+  background: #ffffff;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   color: var(--primary-color);
 }
@@ -991,6 +991,8 @@ strong {
   border: none;
   padding: 0;
   margin: 0;
+  background-color: #000;
+  border-radius: 25px;
 }
 
 .custom-tabs .nav-link {
@@ -1010,13 +1012,14 @@ strong {
 
 .custom-tabs .nav-underline {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 50%;
   height: 100%;
   background-color: #fff;
   border-radius: 25px;
   transition: left 0.3s ease;
+  z-index: 0;
 }
 
 .custom-tabs .nav-link:nth-child(1).active ~ .nav-underline {
@@ -1029,6 +1032,14 @@ strong {
 
 h5 {
   margin: 0;
+}
+
+#nav-ContactForm-tab.active h5 {
+  color: #000;
+}
+
+#nav-ContactMap-tab.active h5 {
+  color: #FFC107; /* Cor amarela */
 }
 
 
