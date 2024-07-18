@@ -711,7 +711,6 @@ strong {
   margin-bottom: -5px;
   transition: transform 0.5s ease, filter 0.5s ease;
   transform: scale(1);
-  filter: grayscale(100%);
 }
 
 .artists-image-wrap {
