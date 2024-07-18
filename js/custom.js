@@ -27,6 +27,28 @@
         }, 300);
       }
     });
+    
+    // FAQ
+    const accordionHeaders = document.querySelectorAll('.accordion-item-header');
+
+accordionHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+        const currentlyActiveAccordionHeader = document.querySelector('.accordion-item-header.active');
+        if(currentlyActiveAccordionHeader && currentlyActiveAccordionHeader !== header) {
+            currentlyActiveAccordionHeader.classList.toggle('active');
+            currentlyActiveAccordionHeader.nextElementSibling.style.maxHeight = 0;
+        }
+
+        header.classList.toggle('active');
+        const accordionBody = header.nextElementSibling;
+        if(header.classList.contains('active')) {
+            accordionBody.style.maxHeight = accordionBody.scrollHeight + 'px';
+        } else {
+            accordionBody.style.maxHeight = 0;
+        }
+    });
+});
+
   
   })(window.jQuery);
 
