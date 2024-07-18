@@ -988,7 +988,7 @@ strong {
 .custom-tabs {
   position: relative;
   display: inline-flex;
-  border: none;
+  border: 2px solid #fff; /* Borda branca ao redor das abas */
   padding: 0;
   margin: 0;
   background-color: #000;
@@ -1012,9 +1012,9 @@ strong {
 
 .custom-tabs .nav-underline {
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+  top: 2px; /* Ajusta a posição para não cobrir a borda */
+  left: 2px;
+  height: calc(100% - 4px); /* Ajusta a altura para não cobrir a borda */
   background-color: #fff;
   border-radius: 25px;
   transition: left 0.3s ease, width 0.3s ease;
@@ -1030,7 +1030,7 @@ h5 {
 }
 
 #nav-ContactMap-tab.active h5 {
-  color: #FFC107;
+  color: #FFC107; /* Cor amarela */
 }
 
 
