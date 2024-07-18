@@ -848,8 +848,8 @@ strong {
 
 /* FAQ */
 .accordion {
-  width: 80%;
-  max-width: 600px;
+  width: 100vw;
+
 }
 
 .accordion-item {
