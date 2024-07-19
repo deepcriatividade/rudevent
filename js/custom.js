@@ -49,39 +49,6 @@ accordionHeaders.forEach(header => {
     });
 });
 
-  // ABAS
-  document.addEventListener("DOMContentLoaded", function() {
-    const activeTab = document.querySelector(".nav-link.active");
-    const underline = document.querySelector(".nav-underline");
-
-    function setUnderlinePosition(tab) {
-        const tabRect = tab.getBoundingClientRect();
-        const containerRect = tab.parentElement.getBoundingClientRect();
-        underline.style.width = tabRect.width + "px";
-        underline.style.left = (tabRect.left - containerRect.left) + "px";
-    }
-
-    function initializeUnderline() {
-        setUnderlinePosition(activeTab);
-    }
-
-    initializeUnderline();
-
-    const tabs = document.querySelectorAll(".nav-link");
-    tabs.forEach(tab => {
-        tab.addEventListener("click", function() {
-            setUnderlinePosition(tab);
-        });
-    });
-
-    // Ajuste para garantir que a função seja chamada após um breve atraso
-    window.addEventListener('load', function() {
-        setTimeout(initializeUnderline, 100); // 100ms de atraso
-    });
-});
-
-
- 
   })(window.jQuery);
 
 
