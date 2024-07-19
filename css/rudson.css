@@ -254,9 +254,8 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  background: #ffffff;
   border-radius: 100px;
-  color: var(--primary-color);
+  color: #ffffff;
 }
 
 .nav-tabs h5 {
