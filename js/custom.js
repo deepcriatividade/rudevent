@@ -70,31 +70,7 @@ accordionHeaders.forEach(header => {
         });
     });
 });
-
-function selectTab(tab) {
-  const highlight = document.getElementById('highlight');
-  const perProjectTab = document.getElementById('tab-per-project');
-  const subscriptionTab = document.getElementById('tab-subscription');
-  
-  if (tab === 'per-project') {
-      highlight.style.left = '0';
-      highlight.style.width = `${perProjectTab.offsetWidth}px`;
-      perProjectTab.classList.add('active');
-      subscriptionTab.classList.remove('active');
-  } else if (tab === 'subscription') {
-      highlight.style.left = `${perProjectTab.offsetWidth}px`;
-      highlight.style.width = `${subscriptionTab.offsetWidth}px`;
-      subscriptionTab.classList.add('active');
-      perProjectTab.classList.remove('active');
-  }
-}
-
-// Define o estado inicial
-window.onload = function() {
-  selectTab('per-project');
-};
-
-  
+ 
   })(window.jQuery);
 
 

@@ -1041,40 +1041,6 @@ h5 {
   color: #000;
 }
 
-/* ABAS 2 */
-.tab-container {
-  display: flex;
-  position: relative;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  overflow: hidden;
-  background-color: #000;
-}
-
-.tab {
-  flex: 1;
-  padding: 10px 20px;
-  text-align: center;
-  color: #fff;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.highlight {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-  z-index: 0;
-}
-
-#tab-per-project.active, #tab-subscription.active {
-  color: #000;
-}
-
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
