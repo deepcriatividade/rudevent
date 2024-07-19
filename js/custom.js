@@ -50,28 +50,25 @@ accordionHeaders.forEach(header => {
 });
 
   // ABAS
-  document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll(".nav-link");
-    const navUnderline = document.querySelector(".nav-underline");
+document.addEventListener("DOMContentLoaded", function() {
+    const activeTab = document.querySelector(".nav-link.active");
+    const underline = document.querySelector(".nav-underline");
 
-    function updateUnderline() {
-        const activeLink = document.querySelector(".nav-link.active");
-        const activeLinkRect = activeLink.getBoundingClientRect();
-        const parentRect = activeLink.parentElement.getBoundingClientRect();
-
-        navUnderline.style.width = `${activeLinkRect.width}px`;
-        navUnderline.style.left = `${activeLinkRect.left - parentRect.left}px`;
+    function setUnderlinePosition(tab) {
+        const tabRect = tab.getBoundingClientRect();
+        const containerRect = tab.parentElement.getBoundingClientRect();
+        underline.style.width = tabRect.width + "px";
+        underline.style.left = (tabRect.left - containerRect.left) + "px";
     }
 
-    navLinks.forEach(link => {
-        link.addEventListener("click", function() {
-            navLinks.forEach(link => link.classList.remove("active"));
-            this.classList.add("active");
-            updateUnderline();
+    setUnderlinePosition(activeTab);
+
+    const tabs = document.querySelectorAll(".nav-link");
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function() {
+            setUnderlinePosition(tab);
         });
     });
-
-    updateUnderline();
 });
 
   

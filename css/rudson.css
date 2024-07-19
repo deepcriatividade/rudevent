@@ -1010,6 +1010,14 @@ strong {
   color: #000;
 }
 
+.nav-underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
 .custom-tabs .nav-underline {
   position: absolute;
   top: 2px; /* Ajusta a posição para não cobrir a borda */
