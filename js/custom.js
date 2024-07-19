@@ -74,8 +74,9 @@ accordionHeaders.forEach(header => {
         });
     });
 
+    // Ajuste para garantir que a função seja chamada após um breve atraso
     window.addEventListener('load', function() {
-        initializeUnderline();
+        setTimeout(initializeUnderline, 100); // 100ms de atraso
     });
 });
 
