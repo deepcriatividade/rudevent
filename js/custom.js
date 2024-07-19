@@ -50,7 +50,7 @@ accordionHeaders.forEach(header => {
 });
 
   // ABAS
-document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function() {
     const activeTab = document.querySelector(".nav-link.active");
     const underline = document.querySelector(".nav-underline");
 
@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
   
   })(window.jQuery);
 
