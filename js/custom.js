@@ -69,7 +69,13 @@ accordionHeaders.forEach(header => {
             setUnderlinePosition(tab);
         });
     });
+
+    // Adicionada a linha abaixo para garantir que a underline apareça ao carregar a página
+    window.addEventListener('load', function() {
+        setUnderlinePosition(activeTab);
+    });
 });
+
  
   })(window.jQuery);
 
