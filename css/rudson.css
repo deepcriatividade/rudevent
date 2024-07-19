@@ -254,7 +254,6 @@ strong {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
-  border-radius: 100px;
   color: #ffffff;
 }
 
