@@ -61,7 +61,11 @@ accordionHeaders.forEach(header => {
         underline.style.left = (tabRect.left - containerRect.left) + "px";
     }
 
-    setUnderlinePosition(activeTab);
+    function initializeUnderline() {
+        setUnderlinePosition(activeTab);
+    }
+
+    initializeUnderline();
 
     const tabs = document.querySelectorAll(".nav-link");
     tabs.forEach(tab => {
@@ -70,11 +74,11 @@ accordionHeaders.forEach(header => {
         });
     });
 
-    // Adicionada a linha abaixo para garantir que a underline apareça ao carregar a página
     window.addEventListener('load', function() {
-        setUnderlinePosition(activeTab);
+        initializeUnderline();
     });
 });
+
 
  
   })(window.jQuery);
