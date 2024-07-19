@@ -1010,6 +1010,18 @@ strong {
   color: #000;
 }
 
+.custom-tabs .nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: 2px; /* Ajusta a posição para não cobrir a borda */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 4px); /* Ajusta a altura para não cobrir a borda */
+  background-color: #fff;
+  border-radius: 25px;
+  z-index: -1; /* Para ficar atrás do texto */
+}
+
 .nav-underline {
   position: absolute;
   bottom: 0;
