@@ -235,9 +235,9 @@ strong {
 .nav-tabs {
   background-color: #0a0a0a;
   border-radius: var(--border-radius-large);
-  border: 1px solid rgb(22, 22, 22);
+  border: 2px solid #fff;
   border-bottom: 0;
-  padding: 15px;
+  padding: 4px;
 }
 
 .nav-tabs .nav-link {
