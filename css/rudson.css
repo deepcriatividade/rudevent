@@ -243,7 +243,6 @@ strong {
 .nav-tabs .nav-link {
   border-radius: var(--border-radius-large);
   border: 0;
-  padding: 15px 25px;
   transition: all 0.3s;
 }
 
