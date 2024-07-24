@@ -11,7 +11,7 @@
   --border-color:                 #7fffd4;
   --link-hover-color:             #B22727;
 
-  --body-font-family:             "Geist Sans" , sans-serif;
+  --body-font-family:             "Instrument Sans", sans-serif;
 
   --h1-font-size:                 74px;
   --h2-font-size:                 46px;
@@ -588,7 +588,7 @@ strong {
   border: 1px #161616 solid;
   display: inline-flex;
   align-items: center;
-  font-family: "Geist Sans", sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   height: 60px;
 }
 
